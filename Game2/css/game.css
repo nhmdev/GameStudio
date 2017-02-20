@@ -1,0 +1,125 @@
+/***********************************************
+* Website: The Word Game
+* Version: 1.0
+* Created: 2017-02-18
+* Last updated: 2017-02-18
+* Developer: Niclas Hjulström : www.nhmdev.se
+* Comments:
+	This game is part of examination
+	for the course "Webbklientprogrammering"
+	for the education "Systemutveckling .NET"
+	by Lernia Yrkesutbildning.
+***********************************************/
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+/* gameArea defines the main div for the game */
+#gameArea {
+	/* Define size */
+	width: 50em;
+	height: 25em;
+	border-radius: 1em; /* Get round corners */
+
+	/* Define colors */
+	background-color: LightSteelBlue;
+
+	/* Make some space inside */
+	padding: 1em;
+}
+
+/* Text area in gameArea */
+#gameArea #textArea {
+	/* Define size */
+	width: 45em;
+	height: 15em;
+	border-radius: 1em; /* Get round corners */
+
+	/* Define colors */
+
+	/* Center the area */
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#gameArea #showQuestion {
+	/* Center the area */
+	text-align: center;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	/* fontstyle */
+	font-family: 'Play';
+	font-size: 4em;
+	color: black;
+}
+
+#gameArea #showQuestion .finishedChars {
+	color: green;
+}
+
+#gameArea #chooseGameLabel {
+	font-family: 'Play';
+	font-size: 1.5em;
+	color: black;
+}
+
+#gameArea .gameModeButton {
+	display: block;
+	padding: 0.5em;
+	font-family: 'Play';
+	font-size: 1em;
+	color: yellow;
+	background-color: DarkSlateBlue;
+	border-radius: 1em;
+}
+
+/* User input area in gameArea */
+#gameArea #userInputArea {
+	/* Define size */
+	width: 45em;
+	height: 6em;
+	border-radius: 1em; /* Get round corners */
+
+	/* Define colors */
+	
+
+	/* Center the area */
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+#gameArea #userInputArea #userInputTextfield {
+	/* Define size */
+	width: 90%;
+	border-radius: 1em; /* Get round corners */
+
+	/* Define font */
+	font-size: 2em;
+	font-family: 'Play';
+
+	padding-left: 0.5em;
+	padding-right: 0.5em
+
+}
+
+#gameArea #userInputArea #userInputTextfield:disabled {
+	background-color: lightgrey;
+}
+
+#gameArea #userInputArea #gameClock {
+	font-family: 'Play';
+	font-size: 2em;
+	color: yellow;
+}
+
+
+

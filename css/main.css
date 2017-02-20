@@ -1,0 +1,143 @@
+/***********************************************
+* Website: NHM Game Studio
+* Version: 1.0
+* Created: 2017-02-13
+* Last updated: 2017-02-20
+* Developer: Niclas Hjulström : www.nhmdev.se
+* Comments:
+	This website is part of examination
+	for the course "Webbklientprogrammering"
+	for the education "Systemutveckling .NET"
+	by Lernia Yrkesutbildning.
+***********************************************/
+
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Play|Yellowtail');
+
+/* Import symbols from FontAwesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* A container for the whole website design */
+#container {
+	width: 60em;
+	padding:	1em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: WhiteSmoke;
+	border-radius: 1em;
+}
+
+header h1 {
+	margin: 0em;
+	margin-bottom: 0.5em;
+	font-family: 'Play','Verdana';
+	font-size: 3em;
+	color: DarkSlateBlue;
+}
+
+header #subtitle {
+	position: relative;
+	font-family:  'Yellowtail', 'Verdana';
+	font-size: 0.5em;
+	font-weight: normal;
+	color: LightSteelBlue;
+	left: -7.5em;
+	top: 0.8em;
+}
+
+/*********************/
+/* NAVIGATION STYLES */
+/*********************/
+nav {
+	
+}
+nav ul {
+			/* top | right | bottom | left */
+	margin:    1em    0em     1em      0em;
+	padding:    0em;
+    border-radius: 1em;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: DarkslateBlue;
+
+}
+
+nav li {
+    float: left;
+    color: WhiteSmoke;
+	font-family: 'Play';
+}
+
+nav li a {
+			/* top | right | bottom | left */
+	/*margin:     0em;*/
+	padding:   1em   1.5em     1em     1.5em;
+
+    display: block;
+    color: WhiteSmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: SteelBlue;
+    color: LemonChiffon;
+}
+
+nav .active {
+	background-color: MidnightBlue;
+	color: Gold;
+}
+
+main {
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: DarkslateBlue;
+	border-radius: 1em;
+	color: WhiteSmoke;
+}
+
+main form {
+	width: 20em;
+	font-family: 'Play';
+	font-size: 1em;
+}
+
+main form input {
+	width: 100%;
+	border-radius: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-family: 'Play';
+	font-size: 1em;
+	
+}
+
+main form textarea {
+	width: 100%;
+	border-radius: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-family: 'Play';
+	font-size: 1em;
+	
+}
+
+main a{
+	color: gold;
+}
+
+footer {
+	padding: 1em;
+	background-color: DarkslateBlue;
+	border-radius: 1em;
+	color: WhiteSmoke;
+	font-family: 'Play';
+	font-size: 0.8em;
+
+}

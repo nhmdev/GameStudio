@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+/***********************************************
+* Website: NHM GameStudio
+* Version: 1.0
+* Created: 2017-02-13
+* Last updated: 2017-02-13
+* Developer: Niclas Hjulström : www.nhmdev.se
+* Comments:
+	This website is part of examination
+	for the course "Webbklientprogrammering"
+	for the education "Systemutveckling .NET"
+	by Lernia Yrkesutbildning.
+***********************************************/
+-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Gaming">
+	<meta name="description" content="The best games in the world.">
+	<meta name="author" content="Niclas Hjulström">
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<title>NHM GameStudio</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>NHM GameStudio<span id="subtitle">By Niclas Hjulström</span></h1>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home"></i><br>
+						Startpage
+					</a>
+				</li>
+				<li>
+					<a class="active" href="games.html">
+						<i class="fa fa-gamepad"></i><br>
+						Games
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						<i class="fa fa-address-card-o"></i><br>
+						Contact
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<!--<a href="Game1/index.html">SkeetGame</a>-->
+			<a href="Game2/index.html">WordGame</a>
+		</main>
+		<footer>
+			<p>Todays date: <span id="date"></span><br>
+			Time right now: <span id="time"></span></p>		
+			<p>Made by Niclas Hjulström / NHM Development</p>
+		</footer>
+	</div>
+	<script src="js/clock.js"></script>
+</body>
+</html>
